@@ -1,0 +1,62 @@
+.App {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background-color: #FFEAEB;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+h1{
+    margin: 50px 0px 25px;
+    color: #C6373C;
+}
+  
+  #courseInputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  #courseInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid #ccc;
+    justify-content: center;
+  }
+  
+  #addCourseBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    background-color: #FF474D;
+    color: white;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #FF8488;
+    }
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  

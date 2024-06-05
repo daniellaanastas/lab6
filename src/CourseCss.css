@@ -1,0 +1,64 @@
+.Course {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Course span {
+  font-size: 18px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; }
+
+button {
+  margin: 0 5px; 
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  background-color: #f9f9f9;
+
+  &:hover {
+    background-color: #e6f7ff;
+  }
+}
+
+button.edit {
+  background-color: #ffc107;
+  color: white;
+
+  &:hover {
+    background-color: #e6a100;
+  }
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+
+  &:hover {
+    background-color: #c82333;
+  }
+}
+
+button.confirm {
+  background-color: #28a745;
+  color: white;
+
+  &:hover {
+    background-color: #218838;
+  }
+}
